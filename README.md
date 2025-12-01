@@ -9,7 +9,7 @@ After also improving the cooling of the CPUs by cutting a whole in the back of t
 
 In the past I have reused laptop panels with generic LVDS controllers with great success, sometimes even normal 24" LCD Monitors.  Though TVs seemed to always be excluded from this possibility as I could never find much information about others reusing the panels despite the panels being documented online with datasheets.  The main limiting factor may have been that the generic LVDS controllers often only supported up to 2 channel 8bit LVDS interfaces.  The panel used in the Philips PFL6000 Series (in my case the LC470EUF FE P1) uses 4 channel LVDS with 8 or 10bit resolution. Though this may only be due to the fact this is a 3D panel, so it needs to display two images, hence double the bandwidth.  Either way, I was determined to keep these TVs, as I have 4 of them and they will probably all fail eventually.  Despite the TVs being over 10 years old, they are still nice TVs with Ambilight Aswell.
 
-#Proof of concept
+# Proof of concept
 
 Another reason I am determined to reuse these TVs is the fact that full schematics and service manuals are available online. Making reverse engineering extremely easy.  Every component is documented in every variant of the TV. from 32 to 55 inches including other intermediate configurations that included Zigbee RF receivers for use with a special Philips keyboard as well as webcams (for smart TV features, not that I have these variants, but it is nice to see how it worked). PSU, Mainboard, IR board, Ambilight strip schematics are all available to inspect. this making finding interfaces and pinouts much easier.
 
